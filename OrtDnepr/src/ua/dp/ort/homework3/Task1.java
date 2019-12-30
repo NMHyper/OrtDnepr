@@ -19,7 +19,7 @@ public class Task1 {
 		
 		int maxInt =  2147483647;
 		int studyDays = 5;
-		int iaRation = 700;
+		int iaRation = 700; 
 		System.out.println("\n\nThe maximum value of int is: " + maxInt + "\nThe study days in the week is: " + studyDays + "\nThe infrared radiation wavelenght is: " + iaRation);
 		
 		long maxLong = 9223372036854775807L;
