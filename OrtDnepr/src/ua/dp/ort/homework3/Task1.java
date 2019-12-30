@@ -7,36 +7,35 @@ public class Task1 {
 		// - придумать 3 значения которых можно в данном типе
 		// - дать переменной осмысленное имя (согласно java convention)
 		// - вывести значение переменной в консоль
-		// для типа char создать 3 переменных, присвоить им код символа и вывести их в консоль
 		byte weekend = 0;
-		byte MaxNum = 127;
-		byte MinNum = -128;
-		System.out.println("\n\nThe weekend days is: " + weekend + "\nThe maximum number of byte is: " + MaxNum +"\nThe minimum number of byte is: " + MinNum );
+		byte maxNum = 127;
+		byte minNum = -128;
+		System.out.println("\n\nThe weekend days is: " + weekend + "\nThe maximum number of byte is: " + maxNum +"\nThe minimum number of byte is: " + minNum );
 		
-		short MaxShort = 32767;
-		short DaysInYear = 365;
-		short BlueWhite = 15000;
-		System.out.println("\n\nThe maximum value of short is: " + MaxShort + "\nThe days in year is: " + DaysInYear + "\nThe Blue-White is: " + BlueWhite);
+		short maxShort = 32767;
+		short daysInYear = 365;
+		short blueWhite = 15000;
+		System.out.println("\n\nThe maximum value of short is: " + maxShort + "\nThe days in year is: " + daysInYear + "\nThe Blue-White is: " + blueWhite);
 		
-		int MaxInt =  2147483647;
-		int StudyDays = 5;
-		int IR = 700;
-		System.out.println("\n\nThe maximum value of int is: " + MaxInt + "\nThe study days in the week is: " + StudyDays + "\nThe infrared radiation wavelenght is: " + IR);
+		int maxInt =  2147483647;
+		int studyDays = 5;
+		int iaRation = 700;
+		System.out.println("\n\nThe maximum value of int is: " + maxInt + "\nThe study days in the week is: " + studyDays + "\nThe infrared radiation wavelenght is: " + iaRation);
 		
-		long MaxLong = 9223372036854775807L;
-		long WorldPopul = 7749457000L;
-		long DisToSun = 149600000L;
-		System.out.println("\n\nThe maximum value of long is: " + MaxLong + "\nThe world popuation is: " + WorldPopul + "\nThe distance to the Sun is: " + DisToSun);
+		long maxLong = 9223372036854775807L;
+		long worldPopulation = 7749457000L;
+		long distanceToSun = 149600000L;
+		System.out.println("\n\nThe maximum value of long is: " + maxLong + "\nThe world popuation is: " + worldPopulation + "\nThe distance to the Sun is: " + distanceToSun);
 		
-		float NumOfPI = 3.14f;
-		float StudyHours = 9.7f;
-		float RadiusMars = 3389.5f;
-		System.out.println("\n\nThe number pi is: " + NumOfPI + "\nThe study hours is: " + StudyHours + "\nThe radius of mars is; " + RadiusMars);
+		float numOfPI = 3.14f;
+		float studyHours = 9.7f;
+		float radiusMars = 3389.5f;
+		System.out.println("\n\nThe number pi is: " + numOfPI + "\nThe study hours is: " + studyHours + "\nThe radius of mars is; " + radiusMars);
 		
-		double PlancksConst = 6.63E-34;
-		double GammaRadiation = 2E-10;
-		double VisibleLight = 1.5E-5;
-		System.out.println("\n\nThe Planks constant is: " + PlancksConst + "\nThe wavelenght Gamma radiation is: " + GammaRadiation + "\nThe visible light inches is: " + VisibleLight);
+		double plancksConst = 6.63E-34;
+		double gammaRadiation = 2E-10;
+		double visibleLight = 1.5E-5;
+		System.out.println("\n\nThe Planks constant is: " + plancksConst + "\nThe wavelenght Gamma radiation is: " + gammaRadiation + "\nThe visible light inches is: " + visibleLight);
 		
 		char symbol1 = 34;
 		char symbol2 = 23;
