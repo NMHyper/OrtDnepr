@@ -13,7 +13,8 @@ public class Distance {
 //	С помощью арифметических операций вычислить 
 //	и вывести в консоль сколько полных прыжков лягушка может сделать.
 
-		float wholeJumps =  DISTANCE / JUMPS;
+		float halfDistance = DISTANCE / 2;
+		float wholeJumps =  halfDistance / JUMPS;
 		System.out.println((int)wholeJumps);
 		
 	}
