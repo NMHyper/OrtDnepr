@@ -18,7 +18,7 @@ public class BitsOperation {
 		
 		//////////////// task1 and task 2
 	    short task1And2 = 0b1111_1111;
-	    short workWeekType = 0b0000_0001;
+	    short workWeekType = 0b0000_0001; 
 	    System.out.println(task1And2 & workWeekType); //the result is non zero, so we have only work days
 	    
 	    
