@@ -16,7 +16,7 @@ public class BitsOperation {
 //	Результаты вывести в консоль, если в консоль выводиться 0 это интерпретируется как отсутствие, 
 //	если не 0 то наличие. Данная интерпретация используется для любого бита. 
 		
-		////////////////task1 and task 2
+		//////////////// task1 and task 2
 	    short task1And2 = 0b1111_1111;
 	    short workWeekType = 0b0000_0001;
 	    System.out.println(task1And2 & workWeekType); //the result is non zero, so we have only work days
